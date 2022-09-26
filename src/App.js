@@ -3,13 +3,14 @@ import './App.css';
 
 import getAllPhones from './services/getAllPhones';
 
+import PhoneList from './components/PhoneList';
+
 function App() {
   const [phones, setPhones] = useState ([]);
 
   useEffect(() => {
     getAllPhones()
         .then(response => {
-          console.log(response)
             setPhones(response);
         })
         .catch(error => {
@@ -19,11 +20,9 @@ function App() {
 
   return (
     <>
-      {phones.map((phone) => (
-        <div key={phone.id}>
-          {phone.name}
-        </div>
-      ))}
+      <section>
+        <PhoneList phones={phones} />
+      </section>
     </>
   );
 }
