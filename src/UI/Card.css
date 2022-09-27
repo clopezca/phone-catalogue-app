@@ -1,0 +1,13 @@
+.card {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    background: #F5F5F7;
+    border-radius: 20px;
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(150, 156, 167, 0.3);
+}
+
+.card:hover {
+    box-shadow: -5px -5px 9px rgba(168, 174, 184, 0.3), 5px 5px 9px rgba(231, 228, 228, 0.45);
+    cursor: pointer;
+}

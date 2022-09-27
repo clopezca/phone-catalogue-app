@@ -1,16 +1,24 @@
 import React from 'react';
 
+import './PhoneList.css'
+
+import Phone from './Phone';
+
 const PhoneList = (props) => {
+    
     return (
-        <ul>
+        <div className='list'>
         {props.phones.map((phone) => (
-            <li key={phone.id}>
-            <h2>{phone.name}</h2>
-            <h3>{phone.manufacturer}</h3>
-            <p>{phone.price}</p>
-        </li>
+            <Phone
+                key={phone.id}
+                id={phone.id}
+                name={phone.name}
+                manufacturer={phone.manufacturer}
+                price={phone.price}
+                image={phone.image}
+            />
         ))}
-        </ul>
+        </div>
     );
 };
 

@@ -20,7 +20,7 @@ function App() {
 
   return (
     <>
-      <section>
+      <section className='container'>
         <PhoneList phones={phones} />
       </section>
     </>
