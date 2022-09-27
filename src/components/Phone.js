@@ -16,10 +16,11 @@ const Phone = (props) => {
                 <img 
                     src={props.image} 
                     alt={props.name}
+                    className='phone-img'
                     onError={({ currentTarget }) => {
                         currentTarget.onerror = null;
                         currentTarget.src='/no-photo-available.png';
-                        currentTarget.className='img-default'
+                        currentTarget.className='phone-img img-default'
                     }}
                     />
                 <div className='item-body_text'>

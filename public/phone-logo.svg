@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg883"
+   width="373.9671"
+   height="365.13409"
+   viewBox="0 0 373.9671 365.13409"
+   sodipodi:docname="phone-logo.png.svg"
+   inkscape:version="1.0.2 (1.0.2+r75+1)">
+  <metadata
+     id="metadata889">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs887" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1913"
+     inkscape:window-height="1050"
+     id="namedview885"
+     showgrid="false"
+     inkscape:zoom="1.8229167"
+     inkscape:cx="189.53787"
+     inkscape:cy="182.86021"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Image 1"
+     transform="translate(-50.462126,-57.13979)">
+    <g
+       id="g930"
+       transform="matrix(0.77964116,0,0,0.77964116,50.458067,48.870132)"
+       style="stroke-width:1.28264">
+      <path
+         id="rect896"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.40662;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 84.404163,10.607006 c -46.757317,0 -84.39895694,36.747439 -84.39895694,82.394024 v 303.54508 c 0,45.6466 37.64163994,82.39698 84.39895694,82.39698 H 395.2689 c 46.75731,0 84.40197,-36.75038 84.40197,-82.39698 V 93.00103 c 0,-45.646585 -37.64466,-82.394024 -84.40197,-82.394024 z m 90.331777,85.881583 h 131.9889 c 12.67832,0 22.88595,8.721451 22.88595,19.555791 v 258.99954 c 0,10.83434 -10.20763,19.55579 -22.88595,19.55579 h -131.9889 c -12.67832,0 -22.88595,-8.72145 -22.88595,-19.55579 V 116.04438 c 0,-10.83434 10.20763,-19.555791 22.88595,-19.555791 z" />
+      <rect
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.40662;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect923"
+         width="149.92484"
+         height="229.55333"
+         x="165.60667"
+         y="127.28135"
+         rx="0"
+         ry="0" />
+      <rect
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.40662;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect925"
+         width="41.406174"
+         height="22.573793"
+         x="219.61874"
+         y="364.93362" />
+    </g>
+  </g>
+</svg>

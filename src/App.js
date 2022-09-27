@@ -3,6 +3,7 @@ import './App.css';
 
 import getAllPhones from './services/getAllPhones';
 
+import Header from './components/Header';
 import PhoneList from './components/PhoneList';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
 
   return (
     <>
+      <Header />
       <section className='container'>
         <PhoneList phones={phones} />
       </section>
