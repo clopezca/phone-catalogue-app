@@ -30,7 +30,7 @@ Javascript, ReactJS, HTML, CSS
 
 ### SETUP
 
-[To use the api](https://github.com/clopezca/phones-app)
+[To use the api](https://github.com/clopezca/phone-catalogue-api)
 
 ### How to install
 
