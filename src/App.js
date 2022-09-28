@@ -1,32 +1,25 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 
-import getAllPhones from './services/getAllPhones';
-
 import Header from './components/Header';
-import PhoneList from './components/PhoneList';
+import Landing from './components/Landing';
+import PhoneDetail from './components/PhoneDetail';
+import PhoneForm from './components/PhoneForm';
 
 function App() {
-  const [phones, setPhones] = useState ([]);
-
-  useEffect(() => {
-    getAllPhones()
-        .then(response => {
-            setPhones(response);
-        })
-        .catch(error => {
-            console.log('Phone error:', error.message)
-        });
-    }, []);
 
   return (
-    <>
+    <Router>
       <Header />
-      <section className='container'>
-        <PhoneList phones={phones} />
-      </section>
-    </>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/:id" element={<PhoneDetail />} />
+        <Route path="/create-phone" element={<PhoneForm />} />
+      </Routes>
+    </Router>
   );
+
 }
 
 export default App;

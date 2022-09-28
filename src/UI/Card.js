@@ -4,7 +4,7 @@ import './Card.css'
 
 const Card = props => {
     return (
-        <div className='card'>{props.children}</div>
+        <div className='phone-card'>{props.children}</div>
     )
 }
 

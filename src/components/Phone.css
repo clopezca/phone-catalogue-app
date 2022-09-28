@@ -2,6 +2,7 @@
     display: grid;
     grid-template-rows: 1fr auto;
     width: 100%;
+    color: #131212
 }
 
 .phone-img {
@@ -17,5 +18,9 @@
 }
 
 .item-body_text {
-    padding: 0 1rem 1rem 1rem;
+    padding: 1rem 2rem;
+}
+
+.item-body_text > h2, h3, p {
+    padding: 0;
 }

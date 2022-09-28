@@ -13,6 +13,7 @@ const getAllPhones = () => {
         })
         .catch(error => {
             console.log("Phones error", error.message)
+            throw new Error("Sorry, something went wrong!")
         });
 }
 

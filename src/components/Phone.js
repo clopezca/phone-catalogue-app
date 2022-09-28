@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 import './Phone.css'
 
@@ -6,30 +7,34 @@ import Card from '../UI/Card';
 
 const Phone = (props) => {
 
-    const handleSowDetails = (event) => {
-        console.log(event.currentTarget.id)
-    }
+    const {page, id, image, name, manufacturer, price} = props
 
     return (
-        <Card>
-            <div id={props.id} className='item-body' onClick={handleSowDetails}>
-                <img 
-                    src={props.image} 
-                    alt={props.name}
-                    className='phone-img'
-                    onError={({ currentTarget }) => {
-                        currentTarget.onerror = null;
-                        currentTarget.src='/no-photo-available.png';
-                        currentTarget.className='phone-img img-default'
-                    }}
-                    />
-                <div className='item-body_text'>
-                    <h2>{props.name}</h2>
-                    <h3>{props.manufacturer}</h3>
-                    <p>{props.price}€</p>
+        <Link
+            style={{ textDecoration: 'none' }}
+            to={`${page}${id}`}
+            key={id}
+        >
+            <Card>
+                <div id={id} className='item-body'>
+                    <img 
+                        src={image} 
+                        alt={name}
+                        className='phone-img'
+                        onError={({ currentTarget }) => {
+                            currentTarget.onerror = null;
+                            currentTarget.src='/no-photo-available.png';
+                            currentTarget.className='phone-img img-default'
+                        }}
+                        />
+                    <div className='item-body_text'>
+                        <h2>{name}</h2>
+                        <h3>{manufacturer}</h3>
+                        <p>{price}€</p>
+                    </div>
                 </div>
-            </div>
-        </Card>    
+            </Card>
+        </Link>    
     );
 };
 

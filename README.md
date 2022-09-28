@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+## PHONE CATALOGUE APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](https://media.giphy.com/media/9f4h6fnCTOOlTrFNUb/giphy.gif)
 
-## Available Scripts
+### INTRODUCTION
 
-In the project directory, you can run:
+The functionality of this application is to display a list of phones and see theirs details.
 
-### `npm start`
+This project has been developed with REACT.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![](catalogue-screen.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![](catalogue-mobile-screen.png)
 
-### `npm test`
+![](detail-desktop.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![](detail-mobile.png)
 
-### `npm run build`
+### FUNCTIONAL DESCRIPTION
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Users can:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+· Retrieve the phone catalogue.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+· Consult all phones details.
 
-### `npm run eject`
+### TECHNOLOGIES
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Javascript, ReactJS, HTML, CSS
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### SETUP
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+[To use the api](https://github.com/clopezca/phones-app)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### How to install
 
-## Learn More
+> git clone git@github.com:clopezca/phones-app.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+> cd phones-app
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+> npm i
 
-### Code Splitting
+### How to use
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To up server from the terminal
 
-### Analyzing the Bundle Size
+> npm run start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+> Vist localhost:3000 
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### TODO
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Add test
+- Add form validation
+- Edit phone
+- Delete phone
+- Create search functionality
